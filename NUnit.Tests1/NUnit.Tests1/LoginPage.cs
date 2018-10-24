@@ -17,15 +17,15 @@ namespace NUnit.Tests1
 
 		[FindsBy(How = How.ClassName, Using = "b-complex-header__button--login")]
 		public IWebElement Loginbtn { get; set; }
+		
+		[FindsBy(How = How.ClassName, Using = "b-button")]
+		public IWebElement Submitbtn { get; set; }
 
 		[FindsBy(How = How.ClassName, Using = "js-user-name")]
 		public IWebElement Logintbx { get; set; }
 
 		[FindsBy(How = How.ClassName, Using = "js-user-password")]
 		public IWebElement Passwordtbx { get; set; }
-
-		[FindsBy(How = How.ClassName, Using = "b-button")]
-		public IWebElement Submitbtn { get; set; }
 
 		public void Navigate()
 		{

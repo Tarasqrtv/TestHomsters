@@ -25,7 +25,7 @@ namespace NUnit.Tests1
 			this.Driver.Quit();
 		}
 
-		[Test]//якщо я равильно зрозумів то це позитивний тест
+		[Test]													//якщо я равильно зрозумів то це позитивний тест
 		public void Entry()
 		{
 			LoginPage loginPage = new LoginPage(this.Driver);
@@ -36,9 +36,9 @@ namespace NUnit.Tests1
 		const string _patternFORemail = @"^(?("")(""[^""]+?""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
 				@"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$";
 
-		[Test]//якщо я равильно зрозумів то це negative тест
+		[Test]													//якщо я равильно зрозумів то це negative тест
 		public void ValidEmail()
-		{	//успішно якщо нічого не чіпати, впаде якщо заберем наприклад собачку		
+		{														//успішно якщо нічого не чіпати, впаде якщо заберем наприклад собачку		
 			Assert.IsTrue(Regex.IsMatch(_email, _patternFORemail, RegexOptions.IgnoreCase));
 		}
 
