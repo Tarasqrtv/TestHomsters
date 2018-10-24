@@ -1,10 +1,9 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
 
 namespace NUnit.Tests1
 {	
-	public class LoginPage
+	public class LoginPage : ILoginPage
 	{
 		private readonly IWebDriver driver;
 		private readonly string url = "https://homsters.kz";
@@ -29,17 +28,36 @@ namespace NUnit.Tests1
 
 		public void Navigate()
 		{
-			this.driver.Navigate().GoToUrl(this.url);
+			this.driver.Navigate().GoToUrl(this.url);			
 		}
 
 		public void Entry(string email, string password)
 		{
 			this.Loginbtn.Click();
-			this.Logintbx.Clear();					//раптом там що є
-			this.Passwordtbx.Clear();	
-			this.Logintbx.SendKeys(email);			//передаєм текст у відповідні поля
-			this.Passwordtbx.SendKeys(password);
+
+			Clear();
+			JobWithLogin(email);
+			JobWithPassword(password);
+
 			this.Submitbtn.Click();
 		}
+
+		public void JobWithLogin(string massage)
+		{
+			this.Logintbx.SendKeys(massage);
+			//and we can add something else
+		}
+
+		public void JobWithPassword(string massage)
+		{			
+			this.Passwordtbx.SendKeys(massage);
+			//and we can add something else
+		}
+
+		public void Clear()
+		{
+			this.Logintbx.Clear();                 
+			this.Passwordtbx.Clear();
+		}		
 	}
 }

@@ -12,3 +12,17 @@ C:\Users\Taras\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.xml
 C:\Users\Taras\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.Support.dll
 C:\Users\Taras\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.Support.xml
 C:\Users\Taras\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\NUnit.Tests1.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\NUnit.Tests1.pdb
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\nunit.framework.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.Support.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\nunit.framework.xml
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.xml
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\bin\Debug\WebDriver.Support.xml
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\obj\Debug\NUnit.Tests1.csprojAssemblyReference.cache
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\obj\Debug\NUnit.Tests1.csproj.CoreCompileInputs.cache
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\obj\Debug\NUnit.Tests1.csproj.CopyComplete
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\obj\Debug\NUnit.Tests1.dll
+E:\Learn\Programmer\Додатково\TestHomsters\NUnit.Tests1\NUnit.Tests1\obj\Debug\NUnit.Tests1.pdb
